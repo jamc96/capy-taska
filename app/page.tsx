@@ -1,17 +1,17 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import TodoList from '@/components/todo-list';
-import AddItem from '@/components/add-item';
+import NewItemForm from '@/components/new-item-form';
 
 export default function TodoApp() {
   return (
     <>
-      <section className='flex-1 self-center'>
-        <Card className='w-full max-w-md'>
+      <section className='flex-1'>
+        <Card className='mx-auto w-full shrink-0 max-w-xl'>
           <CardHeader>
             <CardTitle className='text-2xl text-center'>Todo App</CardTitle>
           </CardHeader>
-          <CardContent>
-            <AddItem />
+          <CardContent className='w-full'>
+            <NewItemForm />
             <TodoList />
           </CardContent>
         </Card>

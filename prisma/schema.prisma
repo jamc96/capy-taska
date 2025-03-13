@@ -20,7 +20,9 @@ model User {
 }
 
 model Todo {
-  id        Int     @id @default(autoincrement())
+  id        Int      @id @default(autoincrement())
   text      String
   completed Boolean
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
