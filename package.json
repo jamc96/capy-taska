@@ -1,5 +1,6 @@
 {
-  "name": "minimal-todo-app",
+  "name": "capy-taska",
+  "description": "A chill, capybara-themed to-do list application designed to help you stay organized with a touch of whimsy. Built with [insert tech stack, e.g., React, Node.js, etc.], Capy-Taska lets you add, manage, and complete tasks while embracing the laid-back spirit of everyone’s favorite giant rodent. Perfect for productivity enthusiasts who want a fun twist on task management!",
   "version": "0.1.0",
   "private": true,
   "scripts": {
