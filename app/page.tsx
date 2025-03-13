@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import TodoList from '@/components/todo-list';
-import TodoAdd from '@/components/todo-add';
+import AddItem from '@/components/add-item';
 
 export default function TodoApp() {
   return (
@@ -11,7 +11,7 @@ export default function TodoApp() {
             <CardTitle className='text-2xl text-center'>Todo App</CardTitle>
           </CardHeader>
           <CardContent>
-            <TodoAdd />
+            <AddItem />
             <TodoList />
           </CardContent>
         </Card>

@@ -3,7 +3,7 @@ import { PlusCircle } from 'lucide-react';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 
-export default function TodoAdd() {
+export default function AddItem() {
   return (
     <div className='flex space-x-2 mb-6'>
       <Input
